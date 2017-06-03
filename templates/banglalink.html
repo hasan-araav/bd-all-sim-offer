@@ -1,0 +1,25 @@
+<ion-view view-title="বাংলালিংক">
+
+	<ion-nav-bar class="bar-blink">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+
+
+	<ion-content class="padding">
+
+
+
+		<!-- Offers -->
+	    <div class="list card" ng-repeat="offer in offers">
+		    <a href="#/banglalink/details/{{offer.id}}" style="text-decoration:none">
+		      <div class="item item-avatar item-text-wrap">
+		        <img src="http://hasan-uj-jaman.net/bdsimofferapp/{{offer.image}}">
+		        <h2>{{offer.title}}</h2>
+		        <p>{{offer.date}}</p>
+		      </div>
+		    </a>
+	    </div>
+
+	</ion-content>
+</ion-view>

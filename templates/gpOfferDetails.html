@@ -1,0 +1,17 @@
+<ion-view view-title="গ্রামীণফোন">
+
+	<ion-nav-bar class="bar-gp">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+
+	<ion-content class="padding" ng-controller="GpOfferDetailsCtrl">
+		
+		<!-- Offers -->
+		<img class="full-image" src="http://hasan-uj-jaman.net/bdsimofferapp/{{offer.image}}" alt="">
+    	<h1>{{offer.title}}</h1>
+    	<p>{{offer.date}}</p>
+    	<div ng-bind-html="offer.description"></div>
+
+	</ion-content>
+</ion-view>

@@ -1,0 +1,177 @@
+/* Empty. Add your own CSS if you like */
+
+/* Banglalink */
+.bar-blink {
+  background: #F76900;
+  color: #fff;
+}
+
+.bar-gp {
+  background-color: #0898c7;
+  color: #fff;
+}
+
+.bar-teletalk, .bar-freeInternet, .bar-mobileRates {
+  background-color: #72BE44;
+  color: #fff;
+}
+
+.button-blink {
+  background: #F76900;
+  color: #fff;
+  /*font-weight: bold;*/
+}
+
+.button-gp {
+  background-color: #00b3ef;
+  color: #fff;
+}
+
+.bar .button.back-button, .bar button.back-button {
+  color: #fff;
+}
+
+.back-text {
+  color: #fff;
+}
+
+.blink > .item-content {
+  background: #F76900;
+}
+
+.scroll > h4 {
+    background: #F76900;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.col {
+  background: #CECFCE;
+  border: 1px solid #e5e5e5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.col.code {
+  background: #F76900;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.item-content > h2 {
+  color: #fff;
+}
+
+.blink-content .card {
+	box-shadow: 0 1px 3px rgb(247, 105, 0);
+}
+
+.blink-content .card .item p {
+	color: #e5e5e5;
+}
+
+.gp-content .card .item p {
+  color: #e5e5e5;
+}
+
+.blink-content .card div.item-divider{
+	color: #fff;
+	background: #F76900;
+	text-transform: uppercase;
+	/*font-weight: bold;*/
+}
+
+/* Robi*/
+.bar-robi {
+  background: #ed1d24;
+  color: #fff;
+}
+
+.button-robi {
+  background: #ed1d24;
+  color: #fff;
+  /*font-weight: bold;*/
+}
+
+/*.bar .button.back-button, .bar button.back-button {
+  color: #fff;
+}*/
+
+/*.back-text {
+  color: #fff;
+}*/
+
+.robi > .item-content {
+  background: #ed1d24;
+}
+
+.gp > .item-content {
+  background-color: #0a9dc7;
+}
+.item-content > h2 {
+  color: #fff;
+}
+
+.robi-content .card {
+  box-shadow: 0 1px 3px #e42112;
+}
+
+.gp-content .card {
+  box-shadow: 0 1px 3px #0a9dc7;
+}
+
+.robi-content .card .item-divider p {
+  color: #fafafa;
+}
+
+.robi-content .card div.item-divider{
+  color: #fff;
+  background: #ed1d24;
+  text-transform: uppercase;
+  /*font-weight: bold;*/
+}
+
+.gp-content .card div.item-divider {
+  color: #fff;
+  background-color: #0a9dc7;
+  text-transform: uppercase;
+}
+
+.robi-content h4{
+  background-color: #ed1d24;
+}
+
+.robi-content .col.code {
+  background: #ed1d24;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.gp-content .col.code {
+  background: #0a9dc7;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.row.text-center.row-header > .col{
+  background-color: #F44336;
+  color: #fff;
+  font-weight: bold;
+}
+
+.gp-content .row.text-center.row-header > .col{
+  background-color: #0a9dc7;
+  color: #fff;
+  font-weight: bold;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.platform-android .bar .title{
+  font-weight: bold;
+}

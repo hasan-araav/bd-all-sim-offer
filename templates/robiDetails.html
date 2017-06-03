@@ -1,0 +1,18 @@
+<ion-view view-title="রবি">
+
+	<ion-nav-bar class="bar-robi">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+
+
+	<ion-content class="padding" ng-controller="RobiOfferDetailCtrl">
+
+		<!-- Offers -->
+		<img class="full-image" src="http://hasan-uj-jaman.net/bdsimofferapp/{{offer.image}}" alt="">
+    	<h1>{{offer.title}}</h1>
+    	<p>{{offer.date}}</p>
+    	<div ng-bind-html="offer.description"></div>
+
+	</ion-content>
+</ion-view>

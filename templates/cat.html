@@ -1,0 +1,24 @@
+<ion-view view-title="{{category_title}} সকল অফার">
+
+	<ion-nav-bar class="bar-{{category_name}}">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+
+
+	<ion-content class="padding">
+
+		<h1>{{category_name}}</h1>
+		<!-- Offers -->
+	    <div class="list card" ng-repeat="offer in offers">
+		    <a href="#/banglalink/details/" style="text-decoration:none">
+		      <div class="item item-avatar item-text-wrap">
+		        <img src="{{offer.fields.image.fields.file.url}}">
+		        <h2>{{offer.fields.title}}</h2>
+		        <p>{{offer.fields.date}}</p>
+		      </div>
+		    </a>
+	    </div>
+
+	</ion-content>
+</ion-view>

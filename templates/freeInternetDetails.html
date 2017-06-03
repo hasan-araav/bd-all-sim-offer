@@ -1,0 +1,17 @@
+<ion-view view-title="ফ্রি ইন্টারনেট">
+
+	<ion-nav-bar class="bar-telitalk">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+    </ion-nav-bar>
+
+	<ion-content class="padding" ng-controller="FreeInternetDetailsCtrl">
+		
+		<!-- Offers -->
+		<img class="full-image" src="http://hasan-uj-jaman.net/bdsimofferapp/{{offer.image}}" alt="">
+    	<h1>{{offer.title}}</h1>
+    	<p>{{offer.date}}</p>
+    	<div ng-bind-html="offer.description"></div>
+
+	</ion-content>
+</ion-view>
